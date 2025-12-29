@@ -1,5 +1,5 @@
 We will explore 3D graphics capabilities in the context of waves. A wave in one dimension is a function of position  𝑥  and time  𝑡  that is solution of the wave equation,
-$\frac{\partial^2 𝜓}{\partial x^2}=1/𝑐^2\frac{\partial^2 𝜓}{\partial x^2},
+$\frac{\partial^2 𝜓}{\partial x^2}=1/𝑐^2\frac{\partial^2 𝜓}{\partial x^2}$,
 being  𝑐  the wave velocity (e.g. for sound waves in air  𝑐=340  m/s). General solutions of this equations are functions  𝜓=𝑓(𝑥−𝑐𝑡)  and 𝜓=𝑓(𝑥+𝑐𝑡) , and linear combinations thereof. The former represents waves travelling to the right, the latter to the left.
 
 Let us consider here a wave of the form
