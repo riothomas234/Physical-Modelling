@@ -1,9 +1,9 @@
 We will explore 3D graphics capabilities in the context of waves. A wave in one dimension is a function of position  𝑥  and time  𝑡  that is solution of the wave equation,
-∂2𝜓∂𝑥2=1𝑐2∂2𝜓∂𝑡2, 
-being  𝑐  the wave velocity (e.g. for sound waves in air  𝑐=340  m/s). General solutions of this equations are functions  𝜓=𝑓(𝑥−𝑐𝑡)  and 𝜓=𝑓(𝑥+𝑐𝑡) , and linear combinations thereof. The former represents waves travelling to the right, the latter to the left.
+$\frac{\partial^2 𝜓}{\partial x^2}=\frac{1}{𝑐^2}\frac{\partial^2 𝜓}{\partial t^2}$,
+ 𝑐 being the wave velocity (e.g. for sound waves in air  𝑐=340  m/s). General solutions of this equations are functions  𝜓=𝑓(𝑥−𝑐𝑡)  and 𝜓=𝑓(𝑥+𝑐𝑡) , and linear combinations thereof. The former represents waves travelling to the right, the latter to the left.
 
 Let us consider here a wave of the form
-𝜓𝑏(𝑥,𝑡)=𝐴2(sin[𝑘(𝑥−𝑐𝑡)]𝑘(𝑥−𝑐𝑡)+sin[𝑘(𝑥+𝑐𝑡)]𝑘(𝑥+𝑐𝑡)) 
+$𝜓𝑏(𝑥,𝑡)=𝐴2(sin[𝑘(𝑥−𝑐𝑡)]𝑘(𝑥−𝑐𝑡)+sin[𝑘(𝑥+𝑐𝑡)]𝑘(𝑥+𝑐𝑡))$
 where  𝐴  is the amplitude of the wave and  𝑘  a constant of wave-number dimensions. It represents a oscillating pulse that spreads and separates into two pulses, travelling in opposite directions. We will compare it with the same initial pulse (at  𝑡=0 ) but travelling only to the right, as
 𝜓𝑟(𝑥,𝑡)=𝐴sin[𝑘(𝑥−𝑐𝑡)]𝑘(𝑥−𝑐𝑡). 
 At  𝑡=0  they both have the same shape.
