@@ -1,4 +1,4 @@
-This repository contains the scientific computing projects completed in Year 1 Natural Sciences at the University of Cambridge as part of the scientific computing course. Below are short descriptions of each file.
+This repository contains the scientific computing projects completed in Year 1 and 2 Natural Sciences at the University of Cambridge as part of the scientific computing course. 
 
 
-[Plotting_cubic_equations.ipynb](Plotting_cubic_equations.ipynb) : 
+[collision modelling](collision modelling) : 
