@@ -1,8 +1,10 @@
+# %%
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 import random
 
+# %%
 class particle:
 
     def __init__(self, x, v, m, axis_list,r):
@@ -12,20 +14,25 @@ class particle:
         self.list = axis_list
         self.r=r
 
+# %%
 
 particles = []
 colours = ['bo', 'co', 'go','mo','ro','yo']
+
+# %%
 
 def collision(m1, m2, v1, v2):
     #these formulas only apply if collision occurs. need to check if they occur or not...
     v3 = (2*m2*v2+(m1-m2)*v1)/(m1+m2)
     v4 = ((m2-m1)*v2+2*m1*v1)/(m1+m2)
     return v3, v4
+# %%
 
 fig = plt.figure()
 axis = plt.axes(xlim =(-600, 600),
                 ylim =(-50, 50))
 
+# %%
 n=10
 x_length = 1000
 x=-480
@@ -47,6 +54,7 @@ rand_2_vel = []
 rand_2_x = []
 #in actual list the indices of my chosen masses is rand_1 + 1
 
+# %%
 for i in range(n):
     if i == rand_1:
         m1 = 1
@@ -63,6 +71,7 @@ for i in range(n):
     particles.append(p)
 
 
+# %%
 #adding heavy particles
 heavy_list_1, = axis.plot([], [], 'ko', ms = 1)
 heavy_1 = particle(600,0,100000000000000,heavy_list_1, 1)
@@ -72,7 +81,7 @@ particles.append(heavy_1)
 
 
 dt = 0.05
-
+# %%
 
 
 def init():
@@ -81,7 +90,7 @@ def init():
         p.list.set_data([], [])
 
     return [p.list for p in particles]
-
+# %%
 
 def animate(i):
 
@@ -114,7 +123,7 @@ def animate(i):
 
     return [p.list for p in particles]
 
-
+# %%
 
 # calling the animation function
 
@@ -125,7 +134,7 @@ anim = animation.FuncAnimation(fig, animate,
                                interval=20,
                                blit=True)
 
-
+# %%
 plt.show()
 
 
