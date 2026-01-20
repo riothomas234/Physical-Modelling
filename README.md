@@ -7,7 +7,7 @@ This repository contains scientific computing projects completed in the 1st and 
 
 [collision modelling](collision_modelling) simulates one-dimensional elastic collisions between multiple particles with varying masses. Particles move along a line and interact through pairwise collisions governed by conservation of momentum and kinetic energy. Two extremely massive boundary particles act as fixed walls, confining the system.  
 
-View the collision animation produces here: https://riothomas234.github.io/Physical-Modelling/collision_modelling/animation.html
+View the collision animation produced here: https://riothomas234.github.io/Physical-Modelling/collision_modelling/animation.html
 
 
 
